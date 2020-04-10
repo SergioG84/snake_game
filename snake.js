@@ -25,7 +25,7 @@ function foodLocation(){
 
 // call update and show
 function draw(){
-  background(50);
+  background(25);
   snake.update();
   snake.show();
   snake.dead();
@@ -35,7 +35,7 @@ function draw(){
   }
 
   // food color, draw food
-  fill(255, 0, 0);
+  fill(43, 93, 255);
   rect(food.x, food.y, size, size);
 }
 
